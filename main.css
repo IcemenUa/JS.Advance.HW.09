@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50vh;
+    /* background-color: aqua; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49.5%;
+    height: 100%;
+
+}
+
+.table {
+    display: flex;
+
+    justify-content: center;
+
+    width: 49.5%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.label {
+    width: 100%;
+    padding-left: 2%;
+    font-size: 3vh;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+input {
+    margin: 1%;
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: lightgrey 1px solid;
+    font-size: 2vh;
+    font-weight: 300;
+    font-family: monospace;
+    padding: 1%;
+
+}
+
+.tableColumName {
+    height: 5vh;
+    width: 15vw;
+    text-align: center;
+    font-size: 2vh;
+    font-weight: 600;
+    font-family: monospace;
+    border-collapse: collapse;
+}
+
+.deleteEdit {
+    height: 5vh;
+    width: 5vw;
+
+
+}
+
+.save {
+    height: 5vh;
+    width: 5vw;
+}

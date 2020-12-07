@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "removeComments": true,
+        "outFile": "main.js",
+        "outDir": "js",
+        "sourceMap": true,
+        "watch": true
+    },
+    "files": [
+        "main.ts"
+    ],
+    "compileOnSave": true,
+}
